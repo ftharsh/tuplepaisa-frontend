@@ -24,7 +24,7 @@ export const ChartService = async (startDate = null, endDate = null) => {
     };
 
     const response = await fetch(
-      "http://localhost:8080/api/charts/chartsHistory",
+      "https://tuple-paisa-qg59.onrender.com/api/charts/chartsHistory",
       {
         method: "POST",
         headers: {

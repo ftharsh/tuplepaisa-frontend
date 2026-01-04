@@ -1,6 +1,6 @@
 import { getToken } from "./authService.js";
 
-const API_BASE_URL = "http://localhost:8080";
+const API_BASE_URL = "https://tuple-paisa-qg59.onrender.com";
 
 const getHeaders = () => ({
   Authorization: `Bearer ${getToken()}`,

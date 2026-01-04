@@ -28,7 +28,7 @@ const AuthPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage("");
-    const API_URL = "http://localhost:8080/api/user";
+    const API_URL = "https://tuple-paisa-qg59.onrender.com/api/user";
 
     try {
       if (!isRightPanelActive) {

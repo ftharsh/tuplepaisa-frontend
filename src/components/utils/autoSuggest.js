@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "./authService.js";
 
-const BASE_URL = "http://localhost:8080/api/user";
+const BASE_URL = "https://tuple-paisa-qg59.onrender.com/api/user";
 
 export const fetchSuggestions = async (query) => {
   try {
